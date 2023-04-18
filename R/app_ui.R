@@ -54,12 +54,11 @@ golem_add_external_resources <- function() {
 #'
 #' @noRd
 signature_theme <- function() {
-  bs_theme(
-    version = 5,
-    primary = "#494955",
-    secondary = "#F15522"
-  ) %>%
-    bs_add_rules(
-      sass_file(app_sys("app", "www", "custom.sass"))
+    bslib::bs_bundle(
+      bslib::bs_theme(5),
+      sass::sass_layer(
+        defaults = list(sass::sass_file(app_sys("app", "www", "_variables.sass"))),
+        rules = list(sass::sass_file(app_sys("app", "www", "custom.sass")))
+      )
     )
 }
