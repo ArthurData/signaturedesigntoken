@@ -1,0 +1,20 @@
+{
+  "global": {
+    "primary": {
+      "value": "#E2E0E2",
+      "type": "color",
+      "description": "Primary color of my design system :) "
+    },
+    "secondary": {
+      "value": "#F15522",
+      "type": "color",
+      "description": "Secondary color of my design system"
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}
