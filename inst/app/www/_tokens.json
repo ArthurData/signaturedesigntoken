@@ -1,5 +1,14 @@
 {
-  "global": {},
+  "global": {
+    "primary": {
+      "value": "#E2E0E2",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#d60fd3",
+      "type": "color"
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
