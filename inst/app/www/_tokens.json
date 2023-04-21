@@ -6,7 +6,7 @@
       "description": "Primary color of my design system :) "
     },
     "secondary": {
-      "value": "#bc7862",
+      "value": "#d7410f",
       "type": "color",
       "description": "Secondary color of my design system"
     }
